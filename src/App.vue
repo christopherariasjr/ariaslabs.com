@@ -1,32 +1,38 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <Navbar />
     <router-view/>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import Navbar from './components/Navbar'
 
-#nav {
-  padding: 30px;
+export default {
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+  components: {
+    Navbar
   }
+  
 }
+</script>
+
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&family=Share+Tech+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Share Tech', sans-serif;
+  background: black;
+  color: white;
+}
+
+
+h1, h2, h3, h4 h5, h6 {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+
 </style>
