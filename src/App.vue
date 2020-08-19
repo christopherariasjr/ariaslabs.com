@@ -12,8 +12,7 @@ export default {
 
   components: {
     Navbar
-  }
-  
+  },  
 }
 </script>
 
@@ -25,7 +24,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Share Tech', sans-serif;
-  background: black;
+  background: rgb(49, 49, 49);
   color: white;
 }
 

@@ -29,7 +29,7 @@ export default {
 
 <style>
     .navbar {
-        background: black !important;
+        background: rgb(49, 49, 49) !important;
         color: rgb(212, 212, 212) !important;
         font-family: 'Share Tech Mono', monospace;
     }
